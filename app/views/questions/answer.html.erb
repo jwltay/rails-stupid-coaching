@@ -1,7 +1,11 @@
-<p>You:
-  <%= @question %></p>
+<p class="you">
+  <%= @question %><br>-<i>You</i>
+  </p>
 
-<p>Coach:
-  <%= @answer %></p>
+  <p class="coach">
+    <%= @answer %><br>-<i>Your coach</i>
+    </p>
 
-<%= link_to 'Ask a new question', ask_path %>
+    <%= link_to 'Ask a new question', ask_path %>
+  </p>
+</p>

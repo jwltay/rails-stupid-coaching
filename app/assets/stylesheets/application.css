@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+p {
+  border-left: 4px solid grey;
+  padding-left: 8px;
+}
+
+.you {
+
+}
+
+.coach {
+  background-color: rgb(255, 255, 206);
+}
+
+a {
+  text-decoration: none;
+}
